@@ -9,3 +9,5 @@ var movie = {
     time: "2h 58 min",
     category: " Adventure, Drama, Fantasy"
 }
+for(const property in movie)
+    console.log(movie[property]);

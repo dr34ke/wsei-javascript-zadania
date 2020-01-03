@@ -5,28 +5,28 @@
  */
 
 
-//Twoj komentarz ...
+//definicja funkcji 1
 function jeden() {
 
-    //Twoj komentarz ...
+    //definicja zmienna 1 i przypisanie jej wartości 1
     var zmienna1 = 1;
 
-    //Twoj komentarz ...
+    //definicja funkcji 2
     function dwa() {
 
-        //Twoj komentarz ...
+        //wypisanie zmiennej z funkcji nadrzędnej
         console.log(zmienna1);
 
-        //Twoj komentarz ...
+        //definicja zmienna2
         var zmienna2 = 3;
     }
 
-    //Twoj komentarz ...
+    //wywołanie funkcji
     dwa();
 
-    //Twoj komentarz ...
+    //próba wypisania niedostępnej zmiennej zdefiniowanej w funkcji podrzędnej
     console.log(zmienna2)
 }
 
-//Twoj komentarz ...
+//wywołanie funkcji 1
 jeden()

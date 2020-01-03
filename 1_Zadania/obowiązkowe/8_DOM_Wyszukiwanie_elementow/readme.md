@@ -12,7 +12,6 @@ Pamiętaj, żeby oddzielać ćwiczenia komentarzami i pisać czytelny, dobrze sf
    - stwórz funkcję ```getDataAnimation(element)``` do której przekaż , jako argument , znaleziony element,
    - stwórz w funkcji nową zmienną i podstaw pod nią wartość pobraną z atrybutu ```data-animation```
    - zwróć tą wartość
-
 ### Zadanie 1 (~ 10min - 15min)
 Wyszukaj na stronie następujące elementy i zapisz je do odpowiednio nazwanych zmiennych:
 1. Element o **id** ```home``` (na dwa sposoby).

@@ -5,21 +5,21 @@
  * Napisz komentarze dla kazdej z linijek kodu
  */
 
-//Twoj komentarz ...
+//Definicja funkcji sortujacej
 function sortArray() {
 
-    //Twoj komentarz ...
+    //definicja tablicy 1 wymiarowej
     var points = [41, 3, 6, 1, 114, 54, 64];
 
-    //Twoj komentarz ...
+    //wywołanie funkcji sortujacej
     points.sort(function (a, b) {
-        //Twoj komentarz ...
+        //porządek rosnący 
         return a - b;
     });
 
-    //Twoj komentarz ...
+    //zwrócenie posortowanej tablicy
     return points;
 }
 
-//Twoj komentarz ...
+//wywołanie funkcji
 sortArray();
