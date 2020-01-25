@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Tutaj this wskazuje na element DOM o id b
     console.log("b: ", this);
 
-
+    //Dodałbym jako parametr event i odwołał się do niego za pomocą event.target
     function innerFuncOne() {
       // Tutaj this wskazuje na element Window, bo funkcja została
       //wywołana bez żadnego kontekstu.
